@@ -8,9 +8,9 @@ Grid: 1 column mobile, 2 columns tablet, 3 columns desktop
 Colors: Dark bg (#1a1a1a), white cards, accent green (#10b981) for buttons
 */
 
-
+"use client";
 import Link from 'next/link';
-import { products } from './data.js';
+import { products } from './src/data/products.js';
 import CardLayout from './src/component/CardLayout.js';
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
           </header>
           <div>
             {/* TODO: Create a responsive card grid here. use the following to template your card content and style with tailwind */}
-            <CardLayout {...products}/>
+            <CardLayout items={products}/>
             <article>
               <header>
                 <div>{/* IMG Goes Here */}</div>

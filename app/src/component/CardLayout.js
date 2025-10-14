@@ -1,12 +1,13 @@
+"use client";
 import CardItem from "./CardItem";
 
-export default function CardLayout(array){
+export default function CardLayout({items}){
 
     return(
-        <p>
-        {array.map((item, index) => (
-            <CardItem key={index} {...item}/>
+        <div>
+        {items.map((item) => (
+            <CardItem key={item.id ?? item.name} {...item}/>
         ))}
-        </p>
+        </div>
     )
 }
