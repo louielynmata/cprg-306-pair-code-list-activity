@@ -34,7 +34,7 @@ export default function CardItem({
       <div>
         <p className="text-sm leading-relaxed text-gray-100">{description}</p>
         <p className="text-xl font-bold text-yellow-600">${price}</p>
-        <p className="mt-5 inline-block rounded bg-amber-800 p-2 text-sm text-white uppercase`>
+        <p className="mt-5 inline-block rounded bg-amber-800 p-2 text-left text-sm text-white uppercase">
           {category}
         </p>
         <div className="mt-4 text-right">

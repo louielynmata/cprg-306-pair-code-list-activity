@@ -16,9 +16,9 @@ import CardLayout from './src/component/CardLayout.js';
 export default function Home() {
   return (
     <div>
-      <main>
-        <header>
-          <h1 className="text-2xl font-bold">
+      <main className="flex min-h-screen flex-col justify-center bg-emerald-900 p-8 text-center align-middle">
+        <header className="mb-8 border-b pb-4">
+          <h1 className="text-4xl font-bold">
             Pair Programming List Component Activity
           </h1>
         </header>
