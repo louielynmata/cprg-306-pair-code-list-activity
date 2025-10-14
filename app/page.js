@@ -1,4 +1,18 @@
+/*
+TEAM PLAN:
+Cycle 1 (Driver: Kyle Carlos, Navigator: Louie Mata): Extract components, import data, render unstyled cards
+Cycle 2 (Driver: Louie Mata, Navigator: Kyle Carlos): Build responsive grid layout with Tailwind
+Cycle 3 (Driver: Zainab Tameem, ): Style card details, buttons, typography, and add hover effects
+
+Grid: 1 column mobile, 2 columns tablet, 3 columns desktop
+Colors: Dark bg (#1a1a1a), white cards, accent green (#10b981) for buttons
+*/
+
+
 import Link from 'next/link';
+import { products } from './data.js';
+import CardLayout from './src/component/CardLayout.js';
+
 export default function Home() {
   return (
     <div>
@@ -16,6 +30,7 @@ export default function Home() {
           </header>
           <div>
             {/* TODO: Create a responsive card grid here. use the following to template your card content and style with tailwind */}
+            <CardLayout {...products}/>
             <article>
               <header>
                 <div>{/* IMG Goes Here */}</div>
