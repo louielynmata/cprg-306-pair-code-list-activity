@@ -7,7 +7,7 @@ export const products = [
       'Bright, fruity notes with hints of blueberry and citrus. Perfect for pour-over or espresso.',
     price: 14.99,
     category: 'coffee',
-    imgPath: '/images/product-1.jpg',
+    imgPath: '/assets/images/product-1.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -18,7 +18,7 @@ export const products = [
       'Rich, full-bodied with chocolate and caramel notes. Excellent for French press.',
     price: 16.99,
     category: 'coffee',
-    imgPath: '/images/product-2.jpg',
+    imgPath: '/assets/images/product-2.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -29,7 +29,7 @@ export const products = [
       'Bold and intense with notes of nuts and dark chocolate. Great for espresso.',
     price: 13.99,
     category: 'coffee',
-    imgPath: '/images/product-3.jpg',
+    imgPath: '/assets/images/product-3.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -40,7 +40,7 @@ export const products = [
       'Fresh, grassy notes with a smooth finish. Traditionally brewed or iced.',
     price: 10.99,
     category: 'tea',
-    imgPath: '/images/product-4.jpg',
+    imgPath: '/assets/images/product-4.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -51,7 +51,7 @@ export const products = [
       'Semi-oxidized with floral and fruity notes. Perfect for multiple infusions.',
     price: 12.99,
     category: 'tea',
-    imgPath: '/images/product-5.jpg',
+    imgPath: '/assets/images/product-5.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -62,7 +62,7 @@ export const products = [
       'Full-bodied malty flavor with hints of honey. Excellent with milk and sugar.',
     price: 11.99,
     category: 'tea',
-    imgPath: '/images/product-6.jpg',
+    imgPath: '/assets/images/product-6.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -73,7 +73,7 @@ export const products = [
       'Vibrant acidity with berry and wine notes. Smooth and balanced.',
     price: 15.99,
     category: 'coffee',
-    imgPath: '/images/product-7.jpg',
+    imgPath: '/assets/images/product-7.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -84,7 +84,7 @@ export const products = [
       'Delicate jasmine flowers infused with green tea. Aromatic and calming.',
     price: 9.99,
     category: 'tea',
-    imgPath: '/images/product-8.jpg',
+    imgPath: '/assets/images/product-8.jpg',
     cta: 'Add to Cart',
   },
   {
@@ -95,7 +95,7 @@ export const products = [
       'Earthy, herbal notes with low acidity. Ideal for French press.',
     price: 14.99,
     category: 'coffee',
-    imgPath: '/images/product-9.jpg',
+    imgPath: '/assets/images/product-9.jpg',
     cta: 'Add to Cart',
   },
 ];
